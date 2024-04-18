@@ -11,11 +11,11 @@
 		"test:e2e:gui": "vue-cli-service test:e2e"
 	},
 	"dependencies": {
-		"@cnamts/design-tokens": "^2.12.0",
-		"@cnamts/eslint-config-vue": "^2.14.0",
-		"@cnamts/form-builder": "^2.14.0",
-		"@cnamts/human-uc-cp17_h": "^1.0.6",
-		"@cnamts/vue-dot": "^2.14.0",
+		"@cnamts/design-tokens": "file:repo/@cnamts/design-tokens",
+		"@cnamts/eslint-config-vue": "file:repo/@cnamts/eslint-config-vue",
+		"@cnamts/form-builder": "file:repo/@cnamts/form-builder",
+		"@cnamts/human-uc-cp17_h": "file:repo/@cnamts/human-uc-cp17_h",
+		"@cnamts/vue-dot": "file:repo/@cnamts/vue-dot",
 		"@types/uuid": "^9.0.2",
 		"axios": "0.26.1",
 		"core-js": "^3.22.5",
@@ -34,7 +34,7 @@
 	},
 	"devDependencies": {
 		"@babel/core": "^7.17.10",
-		"@cnamts/vue-cli-plugin-vue-dash": "^2.0.0",
+		"@cnamts/vue-cli-plugin-vue-dash": "file:repo/@cnamts/vue-cli-plugin-vue-dash",
 		"@mdi/js": "^6.6.96",
 		"@rushstack/eslint-patch": "^1.1.3",
 		"@types/jest": "^27.5.1",
