@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppHeader renders correctly 1`] = `
+<headerbar-stub theme="default" servicetitle="components.layout.appHeader.title" navigationitems="" innerwidth="100%">
+  <usermenubtn-stub fullname="components.layout.appHeader.user" additionalinformation="components.layout.appHeader.role" label="Menu utilisateur"></usermenubtn-stub>
+</headerbar-stub>
+`;
+
+exports[`AppHeader renders correctly when maintenance is enabled 1`] = `
+<headerbar-stub theme="default" servicetitle="components.layout.appHeader.title" innerwidth="100%">
+  <!---->
+</headerbar-stub>
+`;

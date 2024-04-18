@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<vapp-stub id="app">
+  <appheader-stub></appheader-stub>
+  <notificationbar-stub closebtntext="Fermer" data-cy="notificationBar"></notificationbar-stub>
+  <vmain-stub tag="main">
+    <transition-stub name="fade" mode="out-in">
+      <routerview-stub name="default"></routerview-stub>
+    </transition-stub>
+  </vmain-stub>
+  <appfooter-stub></appfooter-stub>
+</vapp-stub>
+`;
+
+exports[`App renders correctly when maintenance is enabled 1`] = `
+<vapp-stub id="app">
+  <appheader-stub></appheader-stub>
+  <notificationbar-stub closebtntext="Fermer" data-cy="notificationBar"></notificationbar-stub>
+  <vmain-stub tag="main">
+    <transition-stub name="fade" mode="out-in">
+      <routerview-stub name="default"></routerview-stub>
+    </transition-stub>
+  </vmain-stub>
+  <!---->
+</vapp-stub>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About renders correctly 1`] = `
+<pagecontainer-stub size="xl" color="transparent">
+  <vcard-stub loaderheight="4" tag="div" class="pa-8">
+    <vbtn-stub color="accent" outlined="true" tag="button" activeclass="" exact="true" to="[object Object]" type="button" data-cy="backBtn" class="mb-8">
+      <vicon-stub class="mr-2">
+        M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z
+      </vicon-stub>
+
+      views.about.backBtn.label
+    </vbtn-stub>
+    <h2 class="text-h6 font-weight-bold primary--text">
+      views.about.title
+    </h2>
+    <!---->
+  </vcard-stub>
+</pagecontainer-stub>
+`;

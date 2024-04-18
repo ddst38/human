@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppFooter renders correctly 1`] = `<footerbar-stub a11ycompliance="non-compliant" sitemaproute="[object Object]" cguroute="[object Object]" cookiesroute="[object Object]" legalnoticeroute="[object Object]" a11ystatementroute="[object Object]" hidesitemaplink="true" hidecgulink="true" hidecookieslink="true" hidelegalnoticelink="true" hidea11ylink="true" version="2.0.13 (sk version 2.0.8)" socialmedialinks="[object Object],[object Object]"></footerbar-stub>`;

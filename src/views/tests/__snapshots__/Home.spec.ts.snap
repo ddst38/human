@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders correctly 1`] = `
+<pagecontainer-stub size="xl" color="transparent">
+  <vcard-stub loaderheight="4" tag="div" class="pa-8">
+    <h2 class="text-h6 font-weight-bold primary--text mb-4">
+      views.home.title
+    </h2>
+    <p>views.home.description.block1</p>
+    <p>views.home.description.block2</p>
+    <routerlink-stub to="[object Object]" tag="a" ariacurrentvalue="page" event="click" data-cy="aboutLink">
+      views.home.about.label
+    </routerlink-stub>
+    <vspacer-stub tag="div"></vspacer-stub>
+    <vbtn-stub color="accent" height="auto" minheight="36px" outlined="true" tag="button" activeclass="" type="button" data-cy="sendNotification" class="text-wrap mt-8">
+      views.home.sendNotification
+    </vbtn-stub> <br><br>
+    <beneficiairecomp-stub axiosinstance="[Function]"></beneficiairecomp-stub> <br><br>
+    <usercomp-stub getuser="[Function]"></usercomp-stub>
+    <vbtn-stub color="purple lighten-1" height="auto" minheight="36px" tag="button" activeclass="" type="button" data-cy="clearUser" class="text-wrap mt-8">
+      vider le store des donnees User
+    </vbtn-stub> <br><br>
+    Verification du role applicatif "ROLE_BENEF_READ" pour l'utilisateur courant : <br>
+    <v-chip-stub color="green" activeclass="" tag="span" active="true" closeicon="$delete" closelabel="$vuetify.close" filtericon="$complete" label="true">
+      L'utilisateur courant a bien le bon role
+    </v-chip-stub>
+    <!---->
+  </vcard-stub>
+</pagecontainer-stub>
+`;

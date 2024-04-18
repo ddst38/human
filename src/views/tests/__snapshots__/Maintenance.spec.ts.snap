@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Maintenance renders correctly 1`] = `<maintenancepage-stub page-title="views.maintenance.meta.title" message="views.maintenance.meta.description"></maintenancepage-stub>`;
