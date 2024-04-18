@@ -1,0 +1,14 @@
+{
+    "$schema": "node_modules/@openapitools/openapi-generator-cli/config.schema.json",
+    "spaces": 2,
+    "generator-cli": {
+      "version": "6.2.0",
+      "repository": {
+        "queryUrl": "http://artifactory.f5.cnqd.cnamts.fr:80/artifactory/api/search/gavc?g=${group.id}&a=${artifact.id}&repos=maven-central-cache",
+        "downloadUrl": "http://artifactory.f5.cnqd.cnamts.fr/artifactory/maven-central/${groupId}/${artifactId}/${versionName}/${artifactId}-${versionName}.jar"
+        }
+    }
+  }
+
+  
+

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FieldMap contains the map of fields and their components 1`] = `
+Object {
+  "date": "DateField",
+  "number": "NumberField",
+  "password": "FormPasswordField",
+  "period": "ChoicePeriodField",
+  "range": "FormRangeField",
+  "select": "ChoiceField",
+  "text": "TextField",
+  "textarea": "TextareaField",
+}
+`;

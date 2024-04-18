@@ -1,0 +1,42 @@
+{
+  "name": "@cnamts/vue-cli-plugin-vue-dash",
+  "version": "2.14.3",
+  "description": "Vue CLI plugin to scaffold front-end projects",
+  "keywords": [
+    "cnam",
+    "vue",
+    "vue-cli",
+    "scaffolding"
+  ],
+  "homepage": "https://github.com/assurance-maladie-digital/design-system#readme",
+  "bugs": {
+    "url": "https://github.com/assurance-maladie-digital/design-system/issues",
+    "email": "digital_TL.cnam@assurance-maladie.fr"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "CNAM",
+    "email": "digital_TL.cnam@assurance-maladie.fr"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --fix"
+  },
+  "dependencies": {
+    "consola": "^2.15.3",
+    "dayjs": "^1.8.34",
+    "fs-extra": "^11.0.0",
+    "superb": "^4.0.0"
+  },
+  "devDependencies": {
+    "@cnamts/design-tokens": "^2.12.0",
+    "@cnamts/eslint-config": "^2.12.0",
+    "@cnamts/eslint-config-vue": "^2.14.1",
+    "@cnamts/form-builder": "^2.14.3",
+    "@cnamts/vue-dot": "^2.14.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "e8a3e866ef6e1e56ac5a01612d19b207f5b956d8"
+}
